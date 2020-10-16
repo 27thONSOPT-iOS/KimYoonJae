@@ -8,10 +8,10 @@
 
 ## 1. 로그인 시 텍스트 바꾸기
 
-<img src="../readmeImages/1st/loginGif.gif"  width="400" height = "600"/>
+<img src="../readmeImages/1st/loginGif.gif"  width="400" height = "700"/>
 
 
 
 ## 2. 회원가입 시 자동 로그인(애니메이션 추가)
 
-<img src="../readmeImages/1st/signupGif.gif"  width="400" height = "600"/>
+<img src="../readmeImages/1st/signupGif.gif"  width="400" height = "700"/>
