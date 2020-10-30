@@ -71,7 +71,7 @@ class ViewController: UIViewController {
             
         }
         
-        topButton.alpha = 0
+        topButton.isHidden = true
         
     }
     
@@ -96,11 +96,11 @@ extension ViewController : UIScrollViewDelegate {
         let curPos = scrollView.contentOffset
         
         if curPos.y > -scrollView.contentInset.top + 420 {
-            topButton.alpha = 1
+            topButton.isHidden = false
             
         }
         else{
-            topButton.alpha = 0
+            topButton.isHidden = true
         }
             
     }
