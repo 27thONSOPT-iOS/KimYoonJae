@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Music InfoVC-->
+        <scene sceneID="YgM-Zv-xmz">
+            <objects>
+                <viewController storyboardIdentifier="MusicInfoVC" id="Gkz-Iy-5Id" customClass="MusicInfoVC" customModule="SOPT_WEEK3_SEM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yk0-Bb-qK3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTE-9z-cuT">
+                                <rect key="frame" x="181" y="74" width="52" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGe-2T-sc5">
+                                <rect key="frame" x="186" y="121" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.5883709788" green="0.61901766059999996" blue="0.66666954759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wFz-v3-snc">
+                                <rect key="frame" x="100" y="192" width="214" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wFz-v3-snc" secondAttribute="height" multiplier="1:1" id="cig-ui-hd6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4jE-n1-ryI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CTE-9z-cuT" firstAttribute="top" secondItem="4jE-n1-ryI" secondAttribute="top" constant="30" id="A34-Oc-y6s"/>
+                            <constraint firstItem="wFz-v3-snc" firstAttribute="leading" secondItem="4jE-n1-ryI" secondAttribute="leading" constant="100" id="JD1-Pa-l0Z"/>
+                            <constraint firstItem="wFz-v3-snc" firstAttribute="top" secondItem="CGe-2T-sc5" secondAttribute="bottom" constant="50" id="L3K-44-wF4"/>
+                            <constraint firstItem="4jE-n1-ryI" firstAttribute="trailing" secondItem="wFz-v3-snc" secondAttribute="trailing" constant="100" id="R0z-Xn-c3n"/>
+                            <constraint firstItem="CGe-2T-sc5" firstAttribute="top" secondItem="CTE-9z-cuT" secondAttribute="bottom" constant="20" id="Y0j-cj-5hd"/>
+                            <constraint firstItem="CGe-2T-sc5" firstAttribute="centerX" secondItem="4jE-n1-ryI" secondAttribute="centerX" id="mKj-bb-dr3"/>
+                            <constraint firstItem="CTE-9z-cuT" firstAttribute="centerX" secondItem="4jE-n1-ryI" secondAttribute="centerX" id="oTA-3F-pZs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="albumImageView" destination="wFz-v3-snc" id="Ghs-dk-ZKR"/>
+                        <outlet property="singerLabel" destination="CGe-2T-sc5" id="5Xk-V1-e1V"/>
+                        <outlet property="titleLabel" destination="CTE-9z-cuT" id="iWO-yz-feB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jLJ-0j-gMM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-628.98550724637687" y="15.401785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

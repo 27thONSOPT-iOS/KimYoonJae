@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9uu-2P-Hwa">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Picker View TestVC-->
+        <scene sceneID="wWL-9G-6f9">
+            <objects>
+                <viewController storyboardIdentifier="PickerViewTestVC" id="9uu-2P-Hwa" customClass="PickerViewTestVC" customModule="SOPT_WEEK3_SEM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lra-v1-TZ5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rne-R9-Fx8">
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
+                            </pickerView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eJa-5R-Yl3">
+                                <rect key="frame" x="100" y="124" width="214" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eJa-5R-Yl3" secondAttribute="height" multiplier="1:1" id="3Xv-Fp-Qyt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPw-X4-hOQ">
+                                <rect key="frame" x="100" y="438" width="214" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dmL-p0-g5y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jPw-X4-hOQ" firstAttribute="leading" secondItem="eJa-5R-Yl3" secondAttribute="leading" id="2V3-sk-aMZ"/>
+                            <constraint firstItem="jPw-X4-hOQ" firstAttribute="top" secondItem="eJa-5R-Yl3" secondAttribute="bottom" constant="100" id="AuK-Xd-vsU"/>
+                            <constraint firstItem="dmL-p0-g5y" firstAttribute="bottom" secondItem="Rne-R9-Fx8" secondAttribute="bottom" id="HNf-i0-uSn"/>
+                            <constraint firstItem="Rne-R9-Fx8" firstAttribute="trailing" secondItem="dmL-p0-g5y" secondAttribute="trailing" id="IAp-cI-dJr"/>
+                            <constraint firstItem="dmL-p0-g5y" firstAttribute="trailing" secondItem="eJa-5R-Yl3" secondAttribute="trailing" constant="100" id="agN-Nd-dbv"/>
+                            <constraint firstItem="eJa-5R-Yl3" firstAttribute="top" secondItem="dmL-p0-g5y" secondAttribute="top" constant="80" id="bhB-Pc-jxt"/>
+                            <constraint firstItem="jPw-X4-hOQ" firstAttribute="trailing" secondItem="eJa-5R-Yl3" secondAttribute="trailing" id="et4-tc-7Mn"/>
+                            <constraint firstItem="Rne-R9-Fx8" firstAttribute="leading" secondItem="dmL-p0-g5y" secondAttribute="leading" id="sNu-gx-H1T"/>
+                            <constraint firstItem="eJa-5R-Yl3" firstAttribute="leading" secondItem="dmL-p0-g5y" secondAttribute="leading" constant="100" id="svn-1s-mog"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="partImageView" destination="eJa-5R-Yl3" id="t95-4J-dEa"/>
+                        <outlet property="partLabel" destination="jPw-X4-hOQ" id="g2H-Jg-bW8"/>
+                        <outlet property="partPickerView" destination="Rne-R9-Fx8" id="AZx-QS-ti3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wcp-wW-I2Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-354" y="-455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
