@@ -34,7 +34,8 @@ Collection Reusable View를 사용해서 구현. 안에 이미지뷰를 넣고 �
 아래의 class 를 추가해주고, 이를 Collection View Flow layout 에 연결시켜주면 가능.
 
 
-```class ProflieCollectionViewFlowLayout: UICollectionViewFlowLayout {
+```swift
+class ProflieCollectionViewFlowLayout: UICollectionViewFlowLayout {
 
     override func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
         return true
