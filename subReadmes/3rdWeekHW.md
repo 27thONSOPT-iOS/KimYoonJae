@@ -33,6 +33,9 @@ Collection Reusable View를 사용해서 구현. 안에 이미지뷰를 넣고 �
 
 아래의 class 를 추가해주고, 이를 Collection View Flow layout 에 연결시켜주면 가능.
 
+### Ref
+https://medium.com/@Anantha1992/stretchable-header-view-in-uicollectionview-swift-5-ios-a14a25dcd383
+
 
 ```swift
 class ProflieCollectionViewFlowLayout: UICollectionViewFlowLayout {
