@@ -18,6 +18,7 @@
 		EC7F72DF255403EA003EE6DF /* Week3HW.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7F72DE255403EA003EE6DF /* Week3HW.storyboard */; };
 		EC7F72E8255406CF003EE6DF /* Week3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F72E7255406CF003EE6DF /* Week3VC.swift */; };
 		EC7F72EE2554ECB3003EE6DF /* ProfileCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F72ED2554ECB3003EE6DF /* ProfileCVC.swift */; };
+		EC7F72F7255502F8003EE6DF /* ProflieCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F72F6255502F8003EE6DF /* ProflieCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EC7F72DE255403EA003EE6DF /* Week3HW.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Week3HW.storyboard; sourceTree = "<group>"; };
 		EC7F72E7255406CF003EE6DF /* Week3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3VC.swift; sourceTree = "<group>"; };
 		EC7F72ED2554ECB3003EE6DF /* ProfileCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCVC.swift; sourceTree = "<group>"; };
+		EC7F72F6255502F8003EE6DF /* ProflieCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProflieCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		EC7F72E525540504003EE6DF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				EC7F72F5255502D6003EE6DF /* FlowLayout */,
 				EC7F72EC2554EC94003EE6DF /* Cells */,
 				EC7F72E62554050C003EE6DF /* VCs */,
 			);
@@ -175,6 +178,14 @@
 				EC7F72ED2554ECB3003EE6DF /* ProfileCVC.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		EC7F72F5255502D6003EE6DF /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F72F6255502F8003EE6DF /* ProflieCollectionViewFlowLayout.swift */,
+			);
+			path = FlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +323,7 @@
 				EC7F72E8255406CF003EE6DF /* Week3VC.swift in Sources */,
 				EC7CB32E254B1BA1003316C4 /* ViewController.swift in Sources */,
 				EC7CB32A254B1BA1003316C4 /* AppDelegate.swift in Sources */,
+				EC7F72F7255502F8003EE6DF /* ProflieCollectionViewFlowLayout.swift in Sources */,
 				EC7CB32C254B1BA1003316C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
