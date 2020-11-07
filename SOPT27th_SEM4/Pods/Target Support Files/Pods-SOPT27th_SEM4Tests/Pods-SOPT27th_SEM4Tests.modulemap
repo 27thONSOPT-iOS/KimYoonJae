@@ -1,0 +1,6 @@
+framework module Pods_SOPT27th_SEM4Tests {
+  umbrella header "Pods-SOPT27th_SEM4Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

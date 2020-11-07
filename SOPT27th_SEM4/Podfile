@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SOPT27th_SEM4' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SOPT27th_SEM4
+
+  target 'SOPT27th_SEM4Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SOPT27th_SEM4UITests' do
+    # Pods for testing
+  end
+
+pod 'FSCalendar'
+
+end
