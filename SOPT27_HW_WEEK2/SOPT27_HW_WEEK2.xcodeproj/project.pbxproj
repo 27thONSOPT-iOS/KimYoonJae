@@ -19,6 +19,8 @@
 		EC7F72E8255406CF003EE6DF /* Week3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F72E7255406CF003EE6DF /* Week3VC.swift */; };
 		EC7F72EE2554ECB3003EE6DF /* ProfileCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F72ED2554ECB3003EE6DF /* ProfileCVC.swift */; };
 		EC7F72F7255502F8003EE6DF /* ProflieCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F72F6255502F8003EE6DF /* ProflieCollectionViewFlowLayout.swift */; };
+		ECC34F33255E879400E4A7BA /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC34F32255E879400E4A7BA /* mainVC.swift */; };
+		ECC34F38255E892600E4A7BA /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC34F37255E892600E4A7BA /* LogInVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		EC7F72E7255406CF003EE6DF /* Week3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3VC.swift; sourceTree = "<group>"; };
 		EC7F72ED2554ECB3003EE6DF /* ProfileCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCVC.swift; sourceTree = "<group>"; };
 		EC7F72F6255502F8003EE6DF /* ProflieCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProflieCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		ECC34F32255E879400E4A7BA /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		ECC34F37255E892600E4A7BA /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 			children = (
 				EC7CB32D254B1BA1003316C4 /* ViewController.swift */,
 				EC7F72E7255406CF003EE6DF /* Week3VC.swift */,
+				ECC34F32255E879400E4A7BA /* mainVC.swift */,
+				ECC34F37255E892600E4A7BA /* LogInVC.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -319,7 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC34F33255E879400E4A7BA /* mainVC.swift in Sources */,
 				EC7F72EE2554ECB3003EE6DF /* ProfileCVC.swift in Sources */,
+				ECC34F38255E892600E4A7BA /* LogInVC.swift in Sources */,
 				EC7F72E8255406CF003EE6DF /* Week3VC.swift in Sources */,
 				EC7CB32E254B1BA1003316C4 /* ViewController.swift in Sources */,
 				EC7CB32A254B1BA1003316C4 /* AppDelegate.swift in Sources */,

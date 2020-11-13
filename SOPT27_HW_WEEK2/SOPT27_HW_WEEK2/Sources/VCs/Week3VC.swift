@@ -13,11 +13,13 @@ class Week3VC: UIViewController {
     @IBOutlet weak var soptLogoImage: UIImageView!
     @IBOutlet weak var profileEditButton: UIButton!
     @IBOutlet weak var profileCollectionView: UICollectionView!
+    @IBOutlet weak var soptBackgroundTop: NSLayoutConstraint!
     
-    
+    var showHeader = true
     override func viewDidLoad() {
         super.viewDidLoad()
         setItems()
+        
         // Do any additional setup after loading the view.
     }
     
@@ -62,6 +64,7 @@ extension Week3VC : UICollectionViewDataSource {
         switch kind {
         case UICollectionView.elementKindSectionHeader:
             let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "reusableView", for: indexPath)
+          
             
             return headerView
             
@@ -120,3 +123,36 @@ extension Week3VC : UICollectionViewDelegateFlowLayout {
 
 
 
+
+extension Week3VC : UIScrollViewDelegate {
+
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//
+//        soptBackgroundTop.constant = 0
+//        soptLogoImage.alpha = 0
+//        profileEditButton.alpha = 0
+//
+            
+    }
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        UIView.animate(withDuration: 0.5, animations: {
+            self.soptBackgroundTop.constant = 88
+            self.soptLogoImage.alpha = 1
+            self.profileEditButton.alpha = 1
+        })
+        
+    }
+    
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        
+        
+    }
+    
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        soptBackgroundTop.constant = 0
+        soptLogoImage.alpha = 0
+        profileEditButton.alpha = 0
+    }
+    
+    
+}
