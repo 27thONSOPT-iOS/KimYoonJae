@@ -135,8 +135,9 @@ extension Week3VC : UIScrollViewDelegate {
             
     }
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        self.soptBackgroundTop.constant = 88
         UIView.animate(withDuration: 0.5, animations: {
-            self.soptBackgroundTop.constant = 88
+            self.view.layoutIfNeeded()
             self.soptLogoImage.alpha = 1
             self.profileEditButton.alpha = 1
         })

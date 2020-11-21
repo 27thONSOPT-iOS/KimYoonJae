@@ -1,0 +1,6 @@
+framework module Pods_SOPT_SEM_WEEK6_SOPT_SEM_WEEK6UITests {
+  umbrella header "Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

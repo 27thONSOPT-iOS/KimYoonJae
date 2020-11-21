@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6830960281869712FB5730 /* Pods_SOPT_SEM_WEEK6Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5072075E7FADACE98277D70B /* Pods_SOPT_SEM_WEEK6Tests.framework */; };
+		966439E6D88763BB5526FC3E /* Pods_SOPT_SEM_WEEK6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8A110438FE38AD8C515285 /* Pods_SOPT_SEM_WEEK6.framework */; };
+		AA43F64091257C2CA5E9FC0E /* Pods_SOPT_SEM_WEEK6_SOPT_SEM_WEEK6UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49650D27753456DF4CC9FDCE /* Pods_SOPT_SEM_WEEK6_SOPT_SEM_WEEK6UITests.framework */; };
+		ECBA1BCF2568C87F00E76491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1BCE2568C87F00E76491 /* AppDelegate.swift */; };
+		ECBA1BD12568C87F00E76491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1BD02568C87F00E76491 /* SceneDelegate.swift */; };
+		ECBA1BD32568C87F00E76491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1BD22568C87F00E76491 /* ViewController.swift */; };
+		ECBA1BD62568C87F00E76491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBA1BD42568C87F00E76491 /* Main.storyboard */; };
+		ECBA1BD82568C88300E76491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBA1BD72568C88300E76491 /* Assets.xcassets */; };
+		ECBA1BDB2568C88300E76491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBA1BD92568C88300E76491 /* LaunchScreen.storyboard */; };
+		ECBA1BE62568C88300E76491 /* SOPT_SEM_WEEK6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1BE52568C88300E76491 /* SOPT_SEM_WEEK6Tests.swift */; };
+		ECBA1BF12568C88400E76491 /* SOPT_SEM_WEEK6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1BF02568C88400E76491 /* SOPT_SEM_WEEK6UITests.swift */; };
+		ECBA1C0D2568CB0A00E76491 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBA1C0C2568CB0A00E76491 /* LogIn.storyboard */; };
+		ECBA1C152568CB9800E76491 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1C142568CB9800E76491 /* LogInVC.swift */; };
+		ECBA1C1A2568CCDD00E76491 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1C192568CCDD00E76491 /* APIConstants.swift */; };
+		ECBA1C1F2568CD6900E76491 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1C1E2568CD6900E76491 /* GenericResponse.swift */; };
+		ECBA1C242568CF0800E76491 /* SignInData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1C232568CF0800E76491 /* SignInData.swift */; };
+		ECBA1C292568D01200E76491 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1C282568D01200E76491 /* NetworkResult.swift */; };
+		ECBA1C2E2568D07100E76491 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1C2D2568D07100E76491 /* AuthService.swift */; };
+		ECBA1C332568D8CE00E76491 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBA1C322568D8CE00E76491 /* SignUp.storyboard */; };
+		ECBA1C382568D92300E76491 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1C372568D92300E76491 /* SignUpVC.swift */; };
+		ECBA1C3D2568DAED00E76491 /* SignUpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA1C3C2568DAED00E76491 /* SignUpData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBA1BE22568C88300E76491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBA1BC32568C87F00E76491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBA1BCA2568C87F00E76491;
+			remoteInfo = SOPT_SEM_WEEK6;
+		};
+		ECBA1BED2568C88400E76491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBA1BC32568C87F00E76491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBA1BCA2568C87F00E76491;
+			remoteInfo = SOPT_SEM_WEEK6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BAA868E7660E82CAE98270 /* Pods-SOPT_SEM_WEEK6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPT_SEM_WEEK6.release.xcconfig"; path = "Target Support Files/Pods-SOPT_SEM_WEEK6/Pods-SOPT_SEM_WEEK6.release.xcconfig"; sourceTree = "<group>"; };
+		2F9736DFD0FC048B4147E3F6 /* Pods-SOPT_SEM_WEEK6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPT_SEM_WEEK6.debug.xcconfig"; path = "Target Support Files/Pods-SOPT_SEM_WEEK6/Pods-SOPT_SEM_WEEK6.debug.xcconfig"; sourceTree = "<group>"; };
+		49650D27753456DF4CC9FDCE /* Pods_SOPT_SEM_WEEK6_SOPT_SEM_WEEK6UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOPT_SEM_WEEK6_SOPT_SEM_WEEK6UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC1783AD6303E38475046A5 /* Pods-SOPT_SEM_WEEK6Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPT_SEM_WEEK6Tests.release.xcconfig"; path = "Target Support Files/Pods-SOPT_SEM_WEEK6Tests/Pods-SOPT_SEM_WEEK6Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5072075E7FADACE98277D70B /* Pods_SOPT_SEM_WEEK6Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOPT_SEM_WEEK6Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B18259E70D30F86D512EFF /* Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.release.xcconfig"; path = "Target Support Files/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9829A8A690479E1D007A290 /* Pods-SOPT_SEM_WEEK6Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPT_SEM_WEEK6Tests.debug.xcconfig"; path = "Target Support Files/Pods-SOPT_SEM_WEEK6Tests/Pods-SOPT_SEM_WEEK6Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF20EBF65D70DD24DEC09E98 /* Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.debug.xcconfig"; path = "Target Support Files/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBA1BCB2568C87F00E76491 /* SOPT_SEM_WEEK6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPT_SEM_WEEK6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBA1BCE2568C87F00E76491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECBA1BD02568C87F00E76491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECBA1BD22568C87F00E76491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECBA1BD52568C87F00E76491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECBA1BD72568C88300E76491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBA1BDA2568C88300E76491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECBA1BDC2568C88300E76491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBA1BE12568C88300E76491 /* SOPT_SEM_WEEK6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOPT_SEM_WEEK6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBA1BE52568C88300E76491 /* SOPT_SEM_WEEK6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOPT_SEM_WEEK6Tests.swift; sourceTree = "<group>"; };
+		ECBA1BE72568C88300E76491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBA1BEC2568C88400E76491 /* SOPT_SEM_WEEK6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOPT_SEM_WEEK6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBA1BF02568C88400E76491 /* SOPT_SEM_WEEK6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOPT_SEM_WEEK6UITests.swift; sourceTree = "<group>"; };
+		ECBA1BF22568C88400E76491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBA1C0C2568CB0A00E76491 /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
+		ECBA1C142568CB9800E76491 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		ECBA1C192568CCDD00E76491 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		ECBA1C1E2568CD6900E76491 /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		ECBA1C232568CF0800E76491 /* SignInData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInData.swift; sourceTree = "<group>"; };
+		ECBA1C282568D01200E76491 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		ECBA1C2D2568D07100E76491 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		ECBA1C322568D8CE00E76491 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		ECBA1C372568D92300E76491 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		ECBA1C3C2568DAED00E76491 /* SignUpData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpData.swift; sourceTree = "<group>"; };
+		FD8A110438FE38AD8C515285 /* Pods_SOPT_SEM_WEEK6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOPT_SEM_WEEK6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBA1BC82568C87F00E76491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966439E6D88763BB5526FC3E /* Pods_SOPT_SEM_WEEK6.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBA1BDE2568C88300E76491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6830960281869712FB5730 /* Pods_SOPT_SEM_WEEK6Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBA1BE92568C88400E76491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA43F64091257C2CA5E9FC0E /* Pods_SOPT_SEM_WEEK6_SOPT_SEM_WEEK6UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBA1BC22568C87F00E76491 = {
+			isa = PBXGroup;
+			children = (
+				ECBA1BCD2568C87F00E76491 /* SOPT_SEM_WEEK6 */,
+				ECBA1BE42568C88300E76491 /* SOPT_SEM_WEEK6Tests */,
+				ECBA1BEF2568C88400E76491 /* SOPT_SEM_WEEK6UITests */,
+				ECBA1BCC2568C87F00E76491 /* Products */,
+				FE6FC5AD1C606A0CC4BAD2A2 /* Pods */,
+				F6012C874A90034F6C33B30F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBA1BCC2568C87F00E76491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA1BCB2568C87F00E76491 /* SOPT_SEM_WEEK6.app */,
+				ECBA1BE12568C88300E76491 /* SOPT_SEM_WEEK6Tests.xctest */,
+				ECBA1BEC2568C88400E76491 /* SOPT_SEM_WEEK6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBA1BCD2568C87F00E76491 /* SOPT_SEM_WEEK6 */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA1BCE2568C87F00E76491 /* AppDelegate.swift */,
+				ECBA1C0C2568CB0A00E76491 /* LogIn.storyboard */,
+				ECBA1BD02568C87F00E76491 /* SceneDelegate.swift */,
+				ECBA1BD22568C87F00E76491 /* ViewController.swift */,
+				ECBA1BD42568C87F00E76491 /* Main.storyboard */,
+				ECBA1BD72568C88300E76491 /* Assets.xcassets */,
+				ECBA1BD92568C88300E76491 /* LaunchScreen.storyboard */,
+				ECBA1BDC2568C88300E76491 /* Info.plist */,
+				ECBA1C142568CB9800E76491 /* LogInVC.swift */,
+				ECBA1C192568CCDD00E76491 /* APIConstants.swift */,
+				ECBA1C1E2568CD6900E76491 /* GenericResponse.swift */,
+				ECBA1C232568CF0800E76491 /* SignInData.swift */,
+				ECBA1C282568D01200E76491 /* NetworkResult.swift */,
+				ECBA1C2D2568D07100E76491 /* AuthService.swift */,
+				ECBA1C322568D8CE00E76491 /* SignUp.storyboard */,
+				ECBA1C372568D92300E76491 /* SignUpVC.swift */,
+				ECBA1C3C2568DAED00E76491 /* SignUpData.swift */,
+			);
+			path = SOPT_SEM_WEEK6;
+			sourceTree = "<group>";
+		};
+		ECBA1BE42568C88300E76491 /* SOPT_SEM_WEEK6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA1BE52568C88300E76491 /* SOPT_SEM_WEEK6Tests.swift */,
+				ECBA1BE72568C88300E76491 /* Info.plist */,
+			);
+			path = SOPT_SEM_WEEK6Tests;
+			sourceTree = "<group>";
+		};
+		ECBA1BEF2568C88400E76491 /* SOPT_SEM_WEEK6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA1BF02568C88400E76491 /* SOPT_SEM_WEEK6UITests.swift */,
+				ECBA1BF22568C88400E76491 /* Info.plist */,
+			);
+			path = SOPT_SEM_WEEK6UITests;
+			sourceTree = "<group>";
+		};
+		F6012C874A90034F6C33B30F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD8A110438FE38AD8C515285 /* Pods_SOPT_SEM_WEEK6.framework */,
+				49650D27753456DF4CC9FDCE /* Pods_SOPT_SEM_WEEK6_SOPT_SEM_WEEK6UITests.framework */,
+				5072075E7FADACE98277D70B /* Pods_SOPT_SEM_WEEK6Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE6FC5AD1C606A0CC4BAD2A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F9736DFD0FC048B4147E3F6 /* Pods-SOPT_SEM_WEEK6.debug.xcconfig */,
+				18BAA868E7660E82CAE98270 /* Pods-SOPT_SEM_WEEK6.release.xcconfig */,
+				AF20EBF65D70DD24DEC09E98 /* Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.debug.xcconfig */,
+				75B18259E70D30F86D512EFF /* Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.release.xcconfig */,
+				A9829A8A690479E1D007A290 /* Pods-SOPT_SEM_WEEK6Tests.debug.xcconfig */,
+				4FC1783AD6303E38475046A5 /* Pods-SOPT_SEM_WEEK6Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBA1BCA2568C87F00E76491 /* SOPT_SEM_WEEK6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBA1BF52568C88400E76491 /* Build configuration list for PBXNativeTarget "SOPT_SEM_WEEK6" */;
+			buildPhases = (
+				22D2B973F23EB1B525F1507E /* [CP] Check Pods Manifest.lock */,
+				ECBA1BC72568C87F00E76491 /* Sources */,
+				ECBA1BC82568C87F00E76491 /* Frameworks */,
+				ECBA1BC92568C87F00E76491 /* Resources */,
+				02190B1CB541C6141388AA18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOPT_SEM_WEEK6;
+			productName = SOPT_SEM_WEEK6;
+			productReference = ECBA1BCB2568C87F00E76491 /* SOPT_SEM_WEEK6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBA1BE02568C88300E76491 /* SOPT_SEM_WEEK6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBA1BF82568C88400E76491 /* Build configuration list for PBXNativeTarget "SOPT_SEM_WEEK6Tests" */;
+			buildPhases = (
+				44F298057E67AFDFC347353D /* [CP] Check Pods Manifest.lock */,
+				ECBA1BDD2568C88300E76491 /* Sources */,
+				ECBA1BDE2568C88300E76491 /* Frameworks */,
+				ECBA1BDF2568C88300E76491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBA1BE32568C88300E76491 /* PBXTargetDependency */,
+			);
+			name = SOPT_SEM_WEEK6Tests;
+			productName = SOPT_SEM_WEEK6Tests;
+			productReference = ECBA1BE12568C88300E76491 /* SOPT_SEM_WEEK6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBA1BEB2568C88400E76491 /* SOPT_SEM_WEEK6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBA1BFB2568C88400E76491 /* Build configuration list for PBXNativeTarget "SOPT_SEM_WEEK6UITests" */;
+			buildPhases = (
+				D4B0CC71719BD7511508FCB2 /* [CP] Check Pods Manifest.lock */,
+				ECBA1BE82568C88400E76491 /* Sources */,
+				ECBA1BE92568C88400E76491 /* Frameworks */,
+				ECBA1BEA2568C88400E76491 /* Resources */,
+				0ED8627A0CC3A67719332E70 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBA1BEE2568C88400E76491 /* PBXTargetDependency */,
+			);
+			name = SOPT_SEM_WEEK6UITests;
+			productName = SOPT_SEM_WEEK6UITests;
+			productReference = ECBA1BEC2568C88400E76491 /* SOPT_SEM_WEEK6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBA1BC32568C87F00E76491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ECBA1BCA2568C87F00E76491 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ECBA1BE02568C88300E76491 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECBA1BCA2568C87F00E76491;
+					};
+					ECBA1BEB2568C88400E76491 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECBA1BCA2568C87F00E76491;
+					};
+				};
+			};
+			buildConfigurationList = ECBA1BC62568C87F00E76491 /* Build configuration list for PBXProject "SOPT_SEM_WEEK6" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBA1BC22568C87F00E76491;
+			productRefGroup = ECBA1BCC2568C87F00E76491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBA1BCA2568C87F00E76491 /* SOPT_SEM_WEEK6 */,
+				ECBA1BE02568C88300E76491 /* SOPT_SEM_WEEK6Tests */,
+				ECBA1BEB2568C88400E76491 /* SOPT_SEM_WEEK6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBA1BC92568C87F00E76491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBA1C0D2568CB0A00E76491 /* LogIn.storyboard in Resources */,
+				ECBA1BDB2568C88300E76491 /* LaunchScreen.storyboard in Resources */,
+				ECBA1BD82568C88300E76491 /* Assets.xcassets in Resources */,
+				ECBA1BD62568C87F00E76491 /* Main.storyboard in Resources */,
+				ECBA1C332568D8CE00E76491 /* SignUp.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBA1BDF2568C88300E76491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBA1BEA2568C88400E76491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02190B1CB541C6141388AA18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SOPT_SEM_WEEK6/Pods-SOPT_SEM_WEEK6-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SOPT_SEM_WEEK6/Pods-SOPT_SEM_WEEK6-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SOPT_SEM_WEEK6/Pods-SOPT_SEM_WEEK6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ED8627A0CC3A67719332E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22D2B973F23EB1B525F1507E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SOPT_SEM_WEEK6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44F298057E67AFDFC347353D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SOPT_SEM_WEEK6Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B0CC71719BD7511508FCB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBA1BC72568C87F00E76491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBA1C242568CF0800E76491 /* SignInData.swift in Sources */,
+				ECBA1C1F2568CD6900E76491 /* GenericResponse.swift in Sources */,
+				ECBA1BD32568C87F00E76491 /* ViewController.swift in Sources */,
+				ECBA1C2E2568D07100E76491 /* AuthService.swift in Sources */,
+				ECBA1C1A2568CCDD00E76491 /* APIConstants.swift in Sources */,
+				ECBA1BCF2568C87F00E76491 /* AppDelegate.swift in Sources */,
+				ECBA1C152568CB9800E76491 /* LogInVC.swift in Sources */,
+				ECBA1BD12568C87F00E76491 /* SceneDelegate.swift in Sources */,
+				ECBA1C382568D92300E76491 /* SignUpVC.swift in Sources */,
+				ECBA1C3D2568DAED00E76491 /* SignUpData.swift in Sources */,
+				ECBA1C292568D01200E76491 /* NetworkResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBA1BDD2568C88300E76491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBA1BE62568C88300E76491 /* SOPT_SEM_WEEK6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBA1BE82568C88400E76491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBA1BF12568C88400E76491 /* SOPT_SEM_WEEK6UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBA1BE32568C88300E76491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBA1BCA2568C87F00E76491 /* SOPT_SEM_WEEK6 */;
+			targetProxy = ECBA1BE22568C88300E76491 /* PBXContainerItemProxy */;
+		};
+		ECBA1BEE2568C88400E76491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBA1BCA2568C87F00E76491 /* SOPT_SEM_WEEK6 */;
+			targetProxy = ECBA1BED2568C88400E76491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBA1BD42568C87F00E76491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBA1BD52568C87F00E76491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBA1BD92568C88300E76491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBA1BDA2568C88300E76491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBA1BF32568C88400E76491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBA1BF42568C88400E76491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBA1BF62568C88400E76491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9736DFD0FC048B4147E3F6 /* Pods-SOPT_SEM_WEEK6.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZTQ76LJPZ;
+				INFOPLIST_FILE = SOPT_SEM_WEEK6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YunaeKim.SOPT-SEM-WEEK6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBA1BF72568C88400E76491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BAA868E7660E82CAE98270 /* Pods-SOPT_SEM_WEEK6.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZTQ76LJPZ;
+				INFOPLIST_FILE = SOPT_SEM_WEEK6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YunaeKim.SOPT-SEM-WEEK6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECBA1BF92568C88400E76491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9829A8A690479E1D007A290 /* Pods-SOPT_SEM_WEEK6Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZTQ76LJPZ;
+				INFOPLIST_FILE = SOPT_SEM_WEEK6Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YunaeKim.SOPT-SEM-WEEK6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOPT_SEM_WEEK6.app/SOPT_SEM_WEEK6";
+			};
+			name = Debug;
+		};
+		ECBA1BFA2568C88400E76491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC1783AD6303E38475046A5 /* Pods-SOPT_SEM_WEEK6Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZTQ76LJPZ;
+				INFOPLIST_FILE = SOPT_SEM_WEEK6Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YunaeKim.SOPT-SEM-WEEK6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOPT_SEM_WEEK6.app/SOPT_SEM_WEEK6";
+			};
+			name = Release;
+		};
+		ECBA1BFC2568C88400E76491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF20EBF65D70DD24DEC09E98 /* Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZTQ76LJPZ;
+				INFOPLIST_FILE = SOPT_SEM_WEEK6UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YunaeKim.SOPT-SEM-WEEK6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SOPT_SEM_WEEK6;
+			};
+			name = Debug;
+		};
+		ECBA1BFD2568C88400E76491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B18259E70D30F86D512EFF /* Pods-SOPT_SEM_WEEK6-SOPT_SEM_WEEK6UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZTQ76LJPZ;
+				INFOPLIST_FILE = SOPT_SEM_WEEK6UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YunaeKim.SOPT-SEM-WEEK6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SOPT_SEM_WEEK6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBA1BC62568C87F00E76491 /* Build configuration list for PBXProject "SOPT_SEM_WEEK6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBA1BF32568C88400E76491 /* Debug */,
+				ECBA1BF42568C88400E76491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBA1BF52568C88400E76491 /* Build configuration list for PBXNativeTarget "SOPT_SEM_WEEK6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBA1BF62568C88400E76491 /* Debug */,
+				ECBA1BF72568C88400E76491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBA1BF82568C88400E76491 /* Build configuration list for PBXNativeTarget "SOPT_SEM_WEEK6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBA1BF92568C88400E76491 /* Debug */,
+				ECBA1BFA2568C88400E76491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBA1BFB2568C88400E76491 /* Build configuration list for PBXNativeTarget "SOPT_SEM_WEEK6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBA1BFC2568C88400E76491 /* Debug */,
+				ECBA1BFD2568C88400E76491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBA1BC32568C87F00E76491 /* Project object */;
+}

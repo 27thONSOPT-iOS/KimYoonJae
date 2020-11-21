@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     
     func setItems(){
         soptLogoImage.image = UIImage(named: "soptLogo.png")
-        soptBackground.image = UIImage(named: "banner")
+        soptBackground.image = UIImage(named: "6")
         profileEditButton.layer.cornerRadius = 5
         
         yellowLine.image = UIImage(named: "4")
